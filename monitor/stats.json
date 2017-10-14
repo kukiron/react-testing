@@ -1,0 +1,210 @@
+[
+  {
+    "timeStamp": 1507995488843,
+    "time": 8792,
+    "hash": "e982d4d6a481dba2deca",
+    "errors": [],
+    "size": 844862,
+    "assets": [
+      {
+        "name": "bundle.js",
+        "chunks": [
+          0
+        ],
+        "size": 844862,
+        "miniSize": 734505,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 838855,
+        "files": [
+          "bundle.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 959,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1506,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 332,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 1897,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2873,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
+            "size": 935,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/fbjs/lib/EventListener.js",
+            "size": 2248,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/fbjs/lib/shallowEqual.js",
+            "size": 1616,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/fbjs/lib/containsNode.js",
+            "size": 923,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/focusNode.js",
+            "size": 578,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/getActiveElement.js",
+            "size": 912,
+            "id": 14
+          },
+          {
+            "name": "multi ./src/index.jsx",
+            "size": 28,
+            "id": 15
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 3351,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 5611,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/cjs/react.development.js",
+            "size": 55295,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react-dom/index.js",
+            "size": 1363,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+            "size": 108200,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/fbjs/lib/isTextNode.js",
+            "size": 479,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/fbjs/lib/isNode.js",
+            "size": 702,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+            "size": 606573,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/fbjs/lib/hyphenateStyleName.js",
+            "size": 848,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/fbjs/lib/hyphenate.js",
+            "size": 674,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/fbjs/lib/camelizeStyleName.js",
+            "size": 875,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/fbjs/lib/camelize.js",
+            "size": 582,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/fbjs/lib/performanceNow.js",
+            "size": 719,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/fbjs/lib/performance.js",
+            "size": 462,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 956,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 19847,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1492,
+            "id": 32
+          },
+          {
+            "name": "./src/TodoInput.jsx",
+            "size": 2998,
+            "id": 33
+          },
+          {
+            "name": "./src/TodoList.jsx",
+            "size": 2716,
+            "id": 34
+          },
+          {
+            "name": "./src/Todo.jsx",
+            "size": 2275,
+            "id": 35
+          }
+        ]
+      }
+    ]
+  }
+]
