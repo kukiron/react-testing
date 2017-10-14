@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const WebpackMonitor = require("webpack-monitor");
 
 module.exports = {
   entry: ["./src/index.jsx"],
@@ -9,15 +10,18 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.jsx?/,
+        test: /\.js?/,
         exclude: /node_modules/,
-        loader: "babel"
+        loader: "babel-loader"
       }
     ]
   },
-  resolve: {
-    extensions: ["", ".js", ".jsx"]
-  }
+  plugins: [
+    new WebpackMonitor({
+      capture: true,
+      launch: true
+    })
+  ]
 };
