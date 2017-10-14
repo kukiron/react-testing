@@ -4,7 +4,7 @@ import {
   findRenderedDOMComponentWithClass
 } from "react-dom/test-utils";
 import { expect } from "chai";
-import Todo from "../src/Todo";
+import Todo from "../src/Todo.jsx";
 
 describe("Todo", () => {
   it('should render a div with "todo" class', () => {

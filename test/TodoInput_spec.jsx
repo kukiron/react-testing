@@ -5,7 +5,7 @@ import {
   Simulate
 } from "react-dom/test-utils";
 import { expect } from "chai";
-import TodoInput from "../src/TodoInput";
+import TodoInput from "../src/TodoInput.jsx";
 
 describe("TodoInput", () => {
   it("should render an input field and button", () => {

@@ -6,8 +6,8 @@ import {
   scryRenderedComponentsWithType
 } from "react-dom/test-utils";
 import { expect } from "chai";
-import TodoList from "../src/TodoList";
-import Todo from "../src/Todo";
+import TodoList from "../src/TodoList.jsx";
+import Todo from "../src/Todo.jsx";
 
 describe("TodoList", () => {
   it('should render a div with "todo-list" class', () => {
