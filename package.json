@@ -6,7 +6,7 @@
   "scripts": {
     "clear": "rm -rf ./dist/bundle.js",
     "build": "npm run clear && webpack",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/*@(.js|.jsx)\" --watch --watch-extensions jsx"
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/*@(.js|.jsx)\""
   },
   "author": "Kafil Uddin Kiron",
   "license": "ISC",
