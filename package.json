@@ -6,6 +6,8 @@
   "scripts": {
     "clear": "rm -rf ./dist/bundle.js",
     "build": "npm run clear && webpack",
+    "lint": "eslint -- . --ext .jsx",
+    "lint:fix": "eslint --fix . --ext .js, .jsx",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/*@(.js|.jsx)\"",
     "test:cov": "istanbul cover ./node_modules/mocha/bin/_mocha -- test/**/* --recursive --compilers js:babel-core/register"
   },
